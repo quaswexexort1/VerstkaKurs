@@ -637,7 +637,7 @@ header{
       gap: 20px;
 
       span {
-        color: #2405f2;
+        color: #2405f2 !important;
         font-weight: 600;
               color: #282938;
       text-align: justify;
@@ -657,6 +657,7 @@ header{
         border: none;
         background: none;
         font-size: 22px;
+        transition: 0.3s;
         cursor: pointer;
               color: #282938;
 

@@ -259,7 +259,7 @@ const MainPage = () =>
 
         <div className="faq">
           <div className="faq-left">
-            <h2>Frequently asked questions</h2>
+            <h2>Frequently <br /> asked questions</h2>
             <a href="#">Contact us for more info</a>
           </div>
 
@@ -271,7 +271,7 @@ const MainPage = () =>
                 <button>×</button>
               </div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 
