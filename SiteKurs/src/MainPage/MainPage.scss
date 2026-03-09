@@ -1,4 +1,7 @@
-
+:root
+{
+  background-color: gray;
+}
 header{
     background-color: #1c1e53;
     width: 1600px;
@@ -672,5 +675,246 @@ header{
       text-align: justify;
 
     }
+  }
+}
+
+
+
+.contact {
+  width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 80px;
+  background-color: white;
+}
+
+
+.contact-left {
+  position: relative;
+  background: url('../assets/woman-writing-on-paper-3228878.png') center/cover no-repeat;
+  height: 691px;
+
+  .contact-overlay {
+    position: absolute;
+    inset: 0;
+    background: #1c1e53;
+    opacity: 50%;
+    color: white;
+    padding: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+      font-size: 54px;
+      font-weight: 600;
+      line-height: 74px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+      opacity: 0.8;
+    }
+  }
+}
+
+
+.contact-right {
+  background: #1c1e53;
+  padding: 71px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  h3 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .contact-desc {
+    font-size: 16px;
+    margin-bottom: 32px;
+    opacity: 0.8;
+  }
+
+  input {
+    height: 56px;
+    margin-bottom: 16px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: transparent;
+    color: white;
+  }
+
+  input::placeholder {
+    color: rgba(255,255,255,0.6);
+  }
+
+  .send-btn {
+    height: 56px;
+    border-radius: 40px;
+    border: none;
+    background: #fcd980;
+    font-weight: 600;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+
+  .contact-link {
+    margin-top: 28px;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.blog {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 120px 80px;
+  background-color: white;
+
+  h2 {
+    font-size: 48px;
+    margin-bottom: 64px;
+    text-align: justify;
+    color: black;
+  }
+}
+
+.blog-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.blog-card {
+
+  img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  span {
+    font-size: 14px;
+    color: #666;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin: 16px 0;
+    line-height: 32px;
+    color: black;
+    text-align: justify;
+  }
+
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 24px;
+    text-align: justify;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #1c1e53 !important;
+  width: 1600px;
+}
+
+.footer-top {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 397px;
+}
+
+.footer-left {
+
+  h3{
+    font-size:32px;
+    margin-bottom:24px;
+  }
+
+  p{
+    max-width:400px;
+    margin-bottom:32px;
+  }
+
+}
+
+.footer-contact{
+  background:#fcd980;
+  color:black;
+  padding:20px 40px;
+  display:flex;
+  gap:60px;
+  width:420px;
+
+
+
+  span{
+    font-size: 18px ;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: justify;
+  }
+}
+
+.footer-right {
+
+  h2 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    text-align: justify;
+  }
+
+  p {
+    max-width: 400px;
+    margin-bottom: 24px;
+    text-align: justify;
+  }
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-bottom {
+  width: 1440px;
+  padding: 32px 80px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  color: black;
+}
+
+.footer-links {
+  display: flex;
+  gap: 32px;
+
+  a {
+    text-decoration: none;
+    color: black;
   }
 }

@@ -11,6 +11,13 @@ import question from '../assets/question.png'
 import time from '../assets/time.png'
 import writing from '../assets/writing.png'
 import lico from '../assets/roflanlico.png'
+import arab from '../assets/arabic-businessman-standing-on-street-and-using-laptop.png'
+import applemonitors from '../assets/apple-monitors-326518.png'
+import womaninwhite from '../assets/woman-in-white.png'
+import insta from '../assets/insta.png'
+import facebook from '../assets/facebook.png'
+import linkedin from '../assets/Negative.png'
+import twitter from '../assets/twitter.png'
 
 const MainPage = () => 
 {
@@ -53,7 +60,6 @@ const MainPage = () =>
             </div>
     </header>
 
-        <body>
             <div className='howwe'>
                 <div className='text-column'>
                     <p className='title'>How we work</p>
@@ -309,8 +315,179 @@ const MainPage = () =>
           </div>
         </div>
 
-    </body>
 
+
+
+        <div className="contact">
+  
+          <div className="contact-left">
+            <div className="contact-overlay">
+              <h2>
+                Building stellar <br />
+                websites for <br />
+                early startups
+              </h2>
+
+              
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
+              </p>
+            </div>
+          </div>
+
+          <div className="contact-right">
+
+            <h3>Send inquiry</h3>
+
+            <p className="contact-desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore.
+            </p>
+
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Paste your Figma design URL" />
+
+            <button className="send-btn">Send an Inquiry</button>
+
+            <a href="#" className="contact-link">
+              Get in touch with us →
+            </a>
+
+          </div>
+
+        </div>
+
+      <div className="blog">
+
+        <h2>Our blog</h2>
+
+        <div className="blog-cards">
+
+          <div className="blog-card">
+            <img src={arab} alt="" />
+            <span>19 Jan 2022</span>
+
+            <h3>
+              How one Webflow user grew his <br /> single person consultancy
+              from <br /> $0-100K in 14 months
+            </h3>
+
+            <p>
+              See how pivoting to Webflow changed one <br /> person’s sales strategy
+              and allowed him to attract
+            </p>
+
+            <a href="#">Read More →</a>
+          </div>
+
+          <div className="blog-card">
+            <img src={womaninwhite} alt="" />
+            <span>19 Jan 2022</span>
+
+            <h3>
+              How one Webflow user grew his <br /> single person consultancy
+              from <br /> $0-100K in 14 months
+            </h3>
+
+            <p>
+              See how pivoting to Webflow changed one <br /> person’s sales strategy
+              and allowed him to attract
+            </p>
+
+            <a href="#">Read More →</a>
+          </div>
+
+          <div className="blog-card">
+            <img src={applemonitors} alt="" />
+            <span>19 Jan 2022</span>
+
+            <h3>
+              How one Webflow user grew his <br /> single person consultancy
+              from <br /> $0-100K in 14 months
+            </h3>
+
+            <p>
+              See how pivoting to Webflow changed one <br /> person’s sales strategy
+              and allowed him to attract
+            </p>
+
+            <a href="#">Read More →</a>
+          </div>
+
+
+        </div>
+
+            </div>
+
+
+
+    <footer>
+
+            <div className="footer-top">
+
+          <div className="footer-left">
+            <h3>{`{Finsweet`}</h3>
+
+            <p>
+              We are always open to discuss your project and<br /> improve your online presence.
+            </p>
+
+            <div className="footer-contact">
+
+              <div>
+                <span>Email me at</span>
+                <p>contact@website.com</p>
+              </div>
+
+              <div>
+                <span>Call us</span>
+                <p>0927 6277 28525</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="footer-right">
+
+            <h2>Lets Talk!</h2>
+
+            <p>
+              We are always open to discuss your project,
+              improve your online presence and help with
+              your UX/UI design challenges.
+            </p>
+
+            <div className="footer-social">
+              <span><img src={facebook} alt="" /></span>
+              <span><img src={twitter} alt="" /></span>
+              <span><img src={insta} alt="" /></span>
+              <span><img src={linkedin} alt="" /></span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="footer-bottom">
+
+          <p>Copyright 2022, Finsweet.com</p>
+
+          <div className="footer-links">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">FAQ</a>
+            <a href="#">Blog</a>
+          </div>
+
+        </div>
+
+      
+    </footer>
         </>
     )
 }
